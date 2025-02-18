@@ -1,14 +1,83 @@
 header{
     display: flex;
     align-items: center;
+
+
+}
+
+
+.drop-down-lists{
+    display:none;
+}
+#top{
+    display: flex;
+    align-items: center;
+
+}
+.text{
+    text-align: center;
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    display: inline;
+}
+
+nav{
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
 }
 
 
 
-.drop-down-lists{
-    position: absolute;
-    top: 30px;
-list-style-type: none;
-background-color: white;
-padding: 12px;
+
+.grey link{
+    border: white;
+    margin: 40px auto;
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
+}
+ 
+.text-container{
+    display: flex;
+}
+.benefits img{
+    background-repeat: no-repeat;
+    
+}
+.benefits{
+    display: flex;
+
+}
+.benefits ul{
+    list-style-type: none;
+    
+}
+
+body{
+    background-color:gainsboro;
+}
+
+.meaning{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+}
+.meaning ul{
+    list-style-type: none;
+}
+.muns{
+    text-align: center;
+}
+
+.muns ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
 }
