@@ -40,12 +40,6 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
-  
-
-}
-.benefits .image{
-  height: auto;
-  width: auto;
 }
 
 .image p {
@@ -56,15 +50,16 @@ nav ul li a {
 }
 
 .text-container {
-  display: flex;;
+  display: flex;
 }
-
+.benefits img {
+  background-repeat: no-repeat;
+}
 .benefits {
   display: flex;
 }
 .benefits ul {
   list-style-type: none;
-  
 }
 
 body {
@@ -87,56 +82,4 @@ body {
   list-style-type: none;
   display: flex;
   align-items: center;
-}
-.lists{
-  display: block;
-
-
-}
-.lists ul{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style-type: none;
-  background-image: url(Background@2x-scaled.jpg);
-}
-.line{
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  justify-content: space-between;
-}
-.line img{
-height: 35px;
-
-}
-.text img{
-  
-}
-.lines1 ul{
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-
-}
-.imagess img{
-  height: 200px;
-}
-.line1{
-  text-align: center;
-}
-.texts{
- text-align: center;
- background-color: blueviolet;
-
-}
-.hyer{
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-
-}
-.hyer ul{
-  align-items: center;
-  list-style-type: none;
 }
